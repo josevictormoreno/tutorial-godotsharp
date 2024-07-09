@@ -14,7 +14,7 @@ namespace Firepot
 
         private void _OnScreenExited()
         {
-            GD.Print("saiu da tela notification!");
+           GD.Print("saiu da tela notification!");
            QueueFree(); 
         }
     }
